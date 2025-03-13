@@ -7,3 +7,9 @@ def unique_numbers():
 
 # Create a new list containing only the numbers that appear once.
     uniques = [n for n in nums if nums.count(n) == 1]
+
+# Display the unique numbers. If there are no unique numbers, display "None".
+    print("Unique numbers:", uniques if uniques else "None")
+
+# Call the function to execute the program.
+unique_numbers()
