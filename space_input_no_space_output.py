@@ -2,3 +2,6 @@
 
 # Ask the user to input number, and use tab to do some spaces in the input
 name = input("Please input your fullname\t\t")
+
+# Print the name without spaces in the beginning
+print(name)
